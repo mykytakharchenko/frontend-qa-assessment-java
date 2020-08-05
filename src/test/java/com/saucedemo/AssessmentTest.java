@@ -25,10 +25,12 @@ public class AssessmentTest extends BaseTest {
         and it is up to you to figure out what it is and write a test that fails at least 1/2 conditions
         4. Hint: read the bulletpoints to help you find the bug(s)
 */
+    @Test
     public void checkboxTest() {
 
     }
 
+    @Test
     public void multiCheckBoxTest() {
 
     }
@@ -42,14 +44,15 @@ public class AssessmentTest extends BaseTest {
         3. Under the multi select select Delaware & Vermont & assert the field values
         4. Under US Outlying Territories assert that Guam & United States Minor Outlying Islands are disabled
 */
+    @Test
     public void selectJapanTest(){
 
     }
-
+    @Test
     public void multiSelectDelewareAndVermont() {
 
     }
-
+    @Test
     public void validateDisabledValuesSelect() {
 
     }
