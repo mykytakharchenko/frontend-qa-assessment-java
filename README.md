@@ -28,7 +28,7 @@
 4. Choose the **selenium3-testng-framework** directory as the **root** directory of the project.
 
 #### Set Your Sauce Labs Credentials
-1. Copy your Sauce Labs **username** and **accessKey** in the [User Settings](https://app.saucelabs.com/user-settings) section of the [Sauce Labs Dashboard](https://app.saucelabs.com/dashboard/builds).
+1. Here are the credentials you need for sauce labs. username: cpothier81 access-key: 5b4845f7-8e44-413d-b969-cecf03f56f32 
 2. Open a Terminal window (command prompt for Windows) and set your Sauce Labs Environment variables:   
    ###### Mac OSX:
    ```
