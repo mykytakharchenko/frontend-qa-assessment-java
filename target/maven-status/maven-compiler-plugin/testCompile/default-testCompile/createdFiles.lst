@@ -1,0 +1,8 @@
+com/saucedemo/CheckoutFeatureTest.class
+com/saucedemo/pages/ConfirmationPage.class
+com/saucedemo/BaseTest.class
+com/saucedemo/LoginFeatureTest.class
+com/saucedemo/pages/BasePage.class
+com/saucedemo/pages/InventoryPage.class
+com/saucedemo/pages/CheckoutCompletePage.class
+com/saucedemo/pages/LoginPage.class

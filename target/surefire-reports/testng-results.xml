@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-08-04T23:51:39Z" name="Command line suite" finished-at="2020-08-04T23:54:02Z" duration-ms="143007">
+    <groups>
+    </groups>
+    <test started-at="2020-08-04T23:51:39Z" name="Command line test" finished-at="2020-08-04T23:54:02Z" duration-ms="143007">
+      <class name="com.saucedemo.LoginFeatureTest">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.saucedemo.LoginFeatureTest@76b0bfab]" started-at="2020-08-04T18:51:39Z" name="setup" finished-at="2020-08-04T18:51:46Z" duration-ms="7022" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.saucedemo.LoginFeatureTest.shouldBeAbleToLogin3()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.saucedemo.LoginFeatureTest@76b0bfab]" started-at="2020-08-04T18:51:39Z" name="setup" finished-at="2020-08-04T18:52:00Z" duration-ms="20412" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.saucedemo.LoginFeatureTest.cantLoginWithLockedOutUser2()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.saucedemo.LoginFeatureTest@76b0bfab]" started-at="2020-08-04T18:51:39Z" name="setup" finished-at="2020-08-04T18:52:11Z" duration-ms="32010" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.saucedemo.LoginFeatureTest.doesntLoginWithBadUser3()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.saucedemo.LoginFeatureTest@76b0bfab]" started-at="2020-08-04T18:51:39Z" name="setup" finished-at="2020-08-04T18:52:12Z" duration-ms="32303" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.saucedemo.LoginFeatureTest.cantLoginWithLockedOutUser()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.saucedemo.LoginFeatureTest@76b0bfab]" started-at="2020-08-04T18:51:39Z" name="setup" finished-at="2020-08-04T18:52:46Z" duration-ms="66471" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.saucedemo.LoginFeatureTest.doesntLoginWithBadUser2()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.saucedemo.LoginFeatureTest@76b0bfab]" started-at="2020-08-04T18:51:39Z" name="setup" finished-at="2020-08-04T18:53:06Z" duration-ms="87001" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.saucedemo.LoginFeatureTest.doesntLoginWithBadUser()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.saucedemo.LoginFeatureTest@76b0bfab]" started-at="2020-08-04T18:51:39Z" name="setup" finished-at="2020-08-04T18:52:24Z" duration-ms="44164" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.saucedemo.LoginFeatureTest.shouldBeAbleToLogin()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.saucedemo.LoginFeatureTest@76b0bfab]" started-at="2020-08-04T18:51:39Z" name="setup" finished-at="2020-08-04T18:53:05Z" duration-ms="85993" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.saucedemo.LoginFeatureTest.shouldBeAbleToLogin2()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.saucedemo.LoginFeatureTest@76b0bfab]" started-at="2020-08-04T18:51:39Z" name="setup" finished-at="2020-08-04T18:53:28Z" duration-ms="108842" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.saucedemo.LoginFeatureTest.cantLoginWithLockedOutUser3()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="shouldBeAbleToLogin3()[pri:0, instance:com.saucedemo.LoginFeatureTest@76b0bfab]" started-at="2020-08-04T18:51:46Z" name="shouldBeAbleToLogin3" finished-at="2020-08-04T18:51:51Z" duration-ms="4571" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeAbleToLogin3 -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.LoginFeatureTest@76b0bfab]" started-at="2020-08-04T18:51:51Z" name="teardown" finished-at="2020-08-04T18:51:52Z" duration-ms="639" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=shouldBeAbleToLogin3 status=SUCCESS method=LoginFeatureTest.shouldBeAbleToLogin3()[pri:0, instance:com.saucedemo.LoginFeatureTest@76b0bfab] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method signature="cantLoginWithLockedOutUser2()[pri:0, instance:com.saucedemo.LoginFeatureTest@76b0bfab]" started-at="2020-08-04T18:52:00Z" name="cantLoginWithLockedOutUser2" finished-at="2020-08-04T18:52:04Z" duration-ms="3724" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cantLoginWithLockedOutUser2 -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.LoginFeatureTest@76b0bfab]" started-at="2020-08-04T18:52:04Z" name="teardown" finished-at="2020-08-04T18:52:04Z" duration-ms="496" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=cantLoginWithLockedOutUser2 status=SUCCESS method=LoginFeatureTest.cantLoginWithLockedOutUser2()[pri:0, instance:com.saucedemo.LoginFeatureTest@76b0bfab] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method signature="doesntLoginWithBadUser3()[pri:0, instance:com.saucedemo.LoginFeatureTest@76b0bfab]" started-at="2020-08-04T18:52:11Z" name="doesntLoginWithBadUser3" finished-at="2020-08-04T18:52:14Z" duration-ms="2739" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doesntLoginWithBadUser3 -->
+        <test-method signature="cantLoginWithLockedOutUser()[pri:0, instance:com.saucedemo.LoginFeatureTest@76b0bfab]" started-at="2020-08-04T18:52:12Z" name="cantLoginWithLockedOutUser" finished-at="2020-08-04T18:52:16Z" duration-ms="4206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cantLoginWithLockedOutUser -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.LoginFeatureTest@76b0bfab]" started-at="2020-08-04T18:52:14Z" name="teardown" finished-at="2020-08-04T18:52:14Z" duration-ms="306" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=doesntLoginWithBadUser3 status=SUCCESS method=LoginFeatureTest.doesntLoginWithBadUser3()[pri:0, instance:com.saucedemo.LoginFeatureTest@76b0bfab] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.LoginFeatureTest@76b0bfab]" started-at="2020-08-04T18:52:16Z" name="teardown" finished-at="2020-08-04T18:52:16Z" duration-ms="432" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=cantLoginWithLockedOutUser status=SUCCESS method=LoginFeatureTest.cantLoginWithLockedOutUser()[pri:0, instance:com.saucedemo.LoginFeatureTest@76b0bfab] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method signature="shouldBeAbleToLogin()[pri:0, instance:com.saucedemo.LoginFeatureTest@76b0bfab]" started-at="2020-08-04T18:52:24Z" name="shouldBeAbleToLogin" finished-at="2020-08-04T18:52:35Z" duration-ms="11536" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeAbleToLogin -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.LoginFeatureTest@76b0bfab]" started-at="2020-08-04T18:52:35Z" name="teardown" finished-at="2020-08-04T18:52:37Z" duration-ms="1738" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=shouldBeAbleToLogin status=SUCCESS method=LoginFeatureTest.shouldBeAbleToLogin()[pri:0, instance:com.saucedemo.LoginFeatureTest@76b0bfab] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method signature="doesntLoginWithBadUser2()[pri:0, instance:com.saucedemo.LoginFeatureTest@76b0bfab]" started-at="2020-08-04T18:52:46Z" name="doesntLoginWithBadUser2" finished-at="2020-08-04T18:52:56Z" duration-ms="10332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doesntLoginWithBadUser2 -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.LoginFeatureTest@76b0bfab]" started-at="2020-08-04T18:52:56Z" name="teardown" finished-at="2020-08-04T18:52:58Z" duration-ms="1602" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=doesntLoginWithBadUser2 status=SUCCESS method=LoginFeatureTest.doesntLoginWithBadUser2()[pri:0, instance:com.saucedemo.LoginFeatureTest@76b0bfab] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method signature="shouldBeAbleToLogin2()[pri:0, instance:com.saucedemo.LoginFeatureTest@76b0bfab]" started-at="2020-08-04T18:53:05Z" name="shouldBeAbleToLogin2" finished-at="2020-08-04T18:53:18Z" duration-ms="12420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeAbleToLogin2 -->
+        <test-method signature="doesntLoginWithBadUser()[pri:0, instance:com.saucedemo.LoginFeatureTest@76b0bfab]" started-at="2020-08-04T18:53:06Z" name="doesntLoginWithBadUser" finished-at="2020-08-04T18:53:19Z" duration-ms="12421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doesntLoginWithBadUser -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.LoginFeatureTest@76b0bfab]" started-at="2020-08-04T18:53:18Z" name="teardown" finished-at="2020-08-04T18:53:19Z" duration-ms="1461" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=shouldBeAbleToLogin2 status=SUCCESS method=LoginFeatureTest.shouldBeAbleToLogin2()[pri:0, instance:com.saucedemo.LoginFeatureTest@76b0bfab] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.LoginFeatureTest@76b0bfab]" started-at="2020-08-04T18:53:19Z" name="teardown" finished-at="2020-08-04T18:53:20Z" duration-ms="1400" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=doesntLoginWithBadUser status=SUCCESS method=LoginFeatureTest.doesntLoginWithBadUser()[pri:0, instance:com.saucedemo.LoginFeatureTest@76b0bfab] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method signature="cantLoginWithLockedOutUser3()[pri:0, instance:com.saucedemo.LoginFeatureTest@76b0bfab]" started-at="2020-08-04T18:53:28Z" name="cantLoginWithLockedOutUser3" finished-at="2020-08-04T18:53:40Z" duration-ms="12175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cantLoginWithLockedOutUser3 -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.LoginFeatureTest@76b0bfab]" started-at="2020-08-04T18:53:40Z" name="teardown" finished-at="2020-08-04T18:53:42Z" duration-ms="1590" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=cantLoginWithLockedOutUser3 status=SUCCESS method=LoginFeatureTest.cantLoginWithLockedOutUser3()[pri:0, instance:com.saucedemo.LoginFeatureTest@76b0bfab] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="terminate()[pri:0, instance:com.saucedemo.LoginFeatureTest@76b0bfab]" started-at="2020-08-04T18:53:42Z" name="terminate" finished-at="2020-08-04T18:53:42Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminate -->
+      </class> <!-- com.saucedemo.LoginFeatureTest -->
+      <class name="com.saucedemo.CheckoutFeatureTest">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.saucedemo.CheckoutFeatureTest@7a765367]" started-at="2020-08-04T18:51:39Z" name="setup" finished-at="2020-08-04T18:53:50Z" duration-ms="130979" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.saucedemo.CheckoutFeatureTest.shouldBeAbleToCheckoutWithItems2()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.saucedemo.CheckoutFeatureTest@7a765367]" started-at="2020-08-04T18:51:39Z" name="setup" finished-at="2020-08-04T18:52:46Z" duration-ms="66728" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.saucedemo.CheckoutFeatureTest.shouldBeAbleToCheckoutWithItems3()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.saucedemo.CheckoutFeatureTest@7a765367]" started-at="2020-08-04T18:51:39Z" name="setup" finished-at="2020-08-04T18:52:25Z" duration-ms="45347" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.saucedemo.CheckoutFeatureTest.shouldBeAbleToCheckoutWithItems5()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.saucedemo.CheckoutFeatureTest@7a765367]" started-at="2020-08-04T18:51:39Z" name="setup" finished-at="2020-08-04T18:53:28Z" duration-ms="108873" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.saucedemo.CheckoutFeatureTest.shouldBeAbleToCheckoutWithItems4()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.saucedemo.CheckoutFeatureTest@7a765367]" started-at="2020-08-04T18:51:39Z" name="setup" finished-at="2020-08-04T18:51:55Z" duration-ms="15727" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.saucedemo.CheckoutFeatureTest.shouldBeAbleToCheckoutWithItems()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="shouldBeAbleToCheckoutWithItems()[pri:0, instance:com.saucedemo.CheckoutFeatureTest@7a765367]" started-at="2020-08-04T18:51:55Z" name="shouldBeAbleToCheckoutWithItems" finished-at="2020-08-04T18:51:58Z" duration-ms="3050" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeAbleToCheckoutWithItems -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.CheckoutFeatureTest@7a765367]" started-at="2020-08-04T18:51:58Z" name="teardown" finished-at="2020-08-04T18:51:58Z" duration-ms="318" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=shouldBeAbleToCheckoutWithItems status=SUCCESS method=CheckoutFeatureTest.shouldBeAbleToCheckoutWithItems()[pri:0, instance:com.saucedemo.CheckoutFeatureTest@7a765367] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method signature="shouldBeAbleToCheckoutWithItems5()[pri:0, instance:com.saucedemo.CheckoutFeatureTest@7a765367]" started-at="2020-08-04T18:52:25Z" name="shouldBeAbleToCheckoutWithItems5" finished-at="2020-08-04T18:52:35Z" duration-ms="10252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeAbleToCheckoutWithItems5 -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.CheckoutFeatureTest@7a765367]" started-at="2020-08-04T18:52:35Z" name="teardown" finished-at="2020-08-04T18:52:37Z" duration-ms="1717" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=shouldBeAbleToCheckoutWithItems5 status=SUCCESS method=CheckoutFeatureTest.shouldBeAbleToCheckoutWithItems5()[pri:0, instance:com.saucedemo.CheckoutFeatureTest@7a765367] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method signature="shouldBeAbleToCheckoutWithItems3()[pri:0, instance:com.saucedemo.CheckoutFeatureTest@7a765367]" started-at="2020-08-04T18:52:46Z" name="shouldBeAbleToCheckoutWithItems3" finished-at="2020-08-04T18:52:56Z" duration-ms="10076" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeAbleToCheckoutWithItems3 -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.CheckoutFeatureTest@7a765367]" started-at="2020-08-04T18:52:56Z" name="teardown" finished-at="2020-08-04T18:52:58Z" duration-ms="1753" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=shouldBeAbleToCheckoutWithItems3 status=SUCCESS method=CheckoutFeatureTest.shouldBeAbleToCheckoutWithItems3()[pri:0, instance:com.saucedemo.CheckoutFeatureTest@7a765367] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method signature="shouldBeAbleToCheckoutWithItems4()[pri:0, instance:com.saucedemo.CheckoutFeatureTest@7a765367]" started-at="2020-08-04T18:53:28Z" name="shouldBeAbleToCheckoutWithItems4" finished-at="2020-08-04T18:53:38Z" duration-ms="9552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeAbleToCheckoutWithItems4 -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.CheckoutFeatureTest@7a765367]" started-at="2020-08-04T18:53:38Z" name="teardown" finished-at="2020-08-04T18:53:40Z" duration-ms="1921" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=shouldBeAbleToCheckoutWithItems4 status=SUCCESS method=CheckoutFeatureTest.shouldBeAbleToCheckoutWithItems4()[pri:0, instance:com.saucedemo.CheckoutFeatureTest@7a765367] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method signature="shouldBeAbleToCheckoutWithItems2()[pri:0, instance:com.saucedemo.CheckoutFeatureTest@7a765367]" started-at="2020-08-04T18:53:50Z" name="shouldBeAbleToCheckoutWithItems2" finished-at="2020-08-04T18:54:00Z" duration-ms="9967" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeAbleToCheckoutWithItems2 -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.CheckoutFeatureTest@7a765367]" started-at="2020-08-04T18:54:00Z" name="teardown" finished-at="2020-08-04T18:54:02Z" duration-ms="2045" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=shouldBeAbleToCheckoutWithItems2 status=SUCCESS method=CheckoutFeatureTest.shouldBeAbleToCheckoutWithItems2()[pri:0, instance:com.saucedemo.CheckoutFeatureTest@7a765367] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="terminate()[pri:0, instance:com.saucedemo.CheckoutFeatureTest@7a765367]" started-at="2020-08-04T18:54:02Z" name="terminate" finished-at="2020-08-04T18:54:02Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminate -->
+      </class> <!-- com.saucedemo.CheckoutFeatureTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
