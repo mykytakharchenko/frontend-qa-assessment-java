@@ -19,12 +19,7 @@ public class AssessmentTest extends BaseTest {
 */
     @Test
     public void shoudHaveCorrectMessage() {
-       WebDriver driver =  getDriver();
-       driver.get("https://www.seleniumeasy.com/test/basic-first-form-demo.html");
-       driver.findElement(By.cssSelector("input[id='user-message']")).sendKeys("QA assessment trial #1");
-       driver.findElement(By.xpath("//button[text()='Show Message']")).click();
-        String m = driver.findElement(By.id("display")).getText();
-        Assert.assertEquals(m, "QA assessment trial #1");
+      
     }
 
 
@@ -40,37 +35,12 @@ public class AssessmentTest extends BaseTest {
     @Test
     public void checkboxTest() {
 
-        WebDriver driver =  getDriver();
-        WebDriverWait wait = new WebDriverWait(driver, 3);
-        driver.get("https://www.seleniumeasy.com/test/basic-first-form-demo.html");
-        driver.findElement(By.xpath("//a[text()='Input Forms']")).click();
-       WebElement checkBoxDemo = driver.findElement(By.xpath("//a[text()='Checkbox Demo']"));
-       wait.until(ExpectedConditions.elementToBeClickable(checkBoxDemo));
-       checkBoxDemo.click();
-       WebElement singleCheckBox = driver.findElement(By.id("isAgeSelected"));
-       wait.until(ExpectedConditions.elementToBeClickable(singleCheckBox));
-       singleCheckBox.click();
-       String verMes = driver.findElement(By.id("txtAge")).getText();
-       Assert.assertEquals(verMes, "Success - Check box is checked");
 
     }
 
     @Test
     public void multiCheckBoxTest() {
-        WebDriver driver =  getDriver();
-        WebDriverWait wait = new WebDriverWait(driver, 3);
-        driver.get("https://www.seleniumeasy.com/test/basic-first-form-demo.html");
-        driver.findElement(By.xpath("//a[text()='Input Forms']")).click();
-        WebElement checkBoxDemo = driver.findElement(By.xpath("//a[text()='Checkbox Demo']"));
-        wait.until(ExpectedConditions.elementToBeClickable(checkBoxDemo));
-        checkBoxDemo.click();
-        WebElement checkAll = driver.findElement(By.id("check1"));
-        wait.until(ExpectedConditions.elementToBeClickable(checkAll));
-        Assert.assertEquals(checkAll.getAttribute("value"), "Uncheck All");
-
-        driver.findElement(By.xpath("//label[text()='Option 1']/input")).click();
-
-        Assert.assertEquals(checkAll.getAttribute("value"), "Check All");
+        
 
 
     }
@@ -86,11 +56,7 @@ public class AssessmentTest extends BaseTest {
 */
     @Test
     public void selectJapanTest(){
-        WebDriver driver =  getDriver();
-        driver.get("https://www.seleniumeasy.com/test/jquery-dropdown-search-demo.html");
-        JavascriptExecutor js = (JavascriptExecutor) driver;
-        js.executeScript("document.getElementById('select2-country-container').value= 'Japan'");
-        Assert.assertEquals(js.executeScript("return document.getElementById('select2-country-container').value"), "Japan");
+      
     }
     @Test
     public void multiSelectDelewareAndVermont() {
